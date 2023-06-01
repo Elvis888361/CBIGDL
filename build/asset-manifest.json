@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/material-kit-react/static/js/main.7b684c0d.js",
+    "static/media/rotating-card-bg-front.jpeg": "/material-kit-react/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
+    "static/media/one.jpg": "/material-kit-react/static/media/one.e8fb69ea6680e32f0f7e.jpg",
+    "static/media/three.JPG": "/material-kit-react/static/media/three.808ba402c7c18ab0d422.JPG",
+    "static/media/two.jpg": "/material-kit-react/static/media/two.dcd322dd3e45ad9762d0.jpg",
+    "static/media/macbook.png": "/material-kit-react/static/media/macbook.e0a8c5d5cc02d71b6d86.png",
+    "static/media/bg-presentation.jpg": "/material-kit-react/static/media/bg-presentation.889630297390d27e8dfb.jpg",
+    "static/media/rotating-card-bg-back.jpeg": "/material-kit-react/static/media/rotating-card-bg-back.183088de91adb283a9ae.jpeg",
+    "static/media/waves-white.svg": "/material-kit-react/static/media/waves-white.7e7579c6e93ead70064fb4e8dd899f32.svg",
+    "static/media/bg-about-us.jpg": "/material-kit-react/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
+    "static/media/four.jpg": "/material-kit-react/static/media/four.2fb726e7531e4e3fa344.jpg",
+    "static/media/five.jpg": "/material-kit-react/static/media/five.3acaa5aa3432532c0c1a.jpg",
+    "index.html": "/material-kit-react/index.html",
+    "main.7b684c0d.js.map": "/material-kit-react/static/js/main.7b684c0d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7b684c0d.js"
+  ]
+}
