@@ -20,7 +20,7 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/elvis.ndegwa.31",
     },
     {
       icon: <TwitterIcon />,

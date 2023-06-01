@@ -18,8 +18,6 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
@@ -31,21 +29,13 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/five.jpg";
 
 function ContactUs() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
-            color: "info",
-          }}
-        />
+        <DefaultNavbar routes={routes} />
       </MKBox>
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>
@@ -96,44 +86,21 @@ function ContactUs() {
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
                 For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                info@cbigdl.com or contact using our social platforms.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autoComplete="off">
-                <Grid container spacing={3}>
-                  <Grid item xs={12} md={6}>
-                    <MKInput
-                      variant="standard"
-                      label="Full Name"
-                      InputLabelProps={{ shrink: true }}
-                      fullWidth
-                    />
-                  </Grid>
-                  <Grid item xs={12} md={6}>
-                    <MKInput
-                      type="email"
-                      variant="standard"
-                      label="Email"
-                      InputLabelProps={{ shrink: true }}
-                      fullWidth
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <MKInput
-                      variant="standard"
-                      label="What can we help you?"
-                      placeholder="Describe your problem in at least 250 characters"
-                      InputLabelProps={{ shrink: true }}
-                      multiline
-                      fullWidth
-                      rows={6}
-                    />
-                  </Grid>
-                </Grid>
-                <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
-                  <MKButton type="submit" variant="gradient" color="info">
-                    Send Message
-                  </MKButton>
-                </Grid>
+              <MKBox display="flex" justifyContent="center" alignItems="center">
+                <MKTypography component="a" variant="body1" href="#" mr={3}>
+                  <i className="fab fa-facebook" />
+                </MKTypography>
+                <MKTypography component="a" variant="body1" href="#" mr={3}>
+                  <i className="fab fa-instagram" />
+                </MKTypography>
+                <MKTypography component="a" variant="body1" href="#" mr={3}>
+                  <i className="fab fa-twitter" />
+                </MKTypography>
+                <MKTypography component="a" variant="body1" href="#">
+                  <i className="fab fa-google-plus" />
+                </MKTypography>
               </MKBox>
             </MKBox>
           </MKBox>

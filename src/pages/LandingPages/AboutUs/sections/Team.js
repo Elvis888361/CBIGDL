@@ -25,10 +25,10 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
+import team1 from "assets/images/one.jpg";
+import team2 from "assets/images/two.jpg";
+import team3 from "assets/images/three.JPG";
+import team4 from "assets/images/four.jpg";
 
 function Team() {
   return (
@@ -58,9 +58,9 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team1}
-                name="Emma Roberts"
-                position={{ color: "info", label: "UI Designer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="James Nduhiu"
+                position={{ color: "info", label: "CEO" }}
+                description="The CEO of CBIGDL Limited is a visionary leader with a sharp business acumen, driving the company's growth and fostering a culture of innovation and excellence in the field of technology and data analytics."
               />
             </MKBox>
           </Grid>
@@ -68,9 +68,9 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team2}
-                name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="John Ndegi"
+                position={{ color: "info", label: "Project Manager" }}
+                description="The project manager of CBIGDL Limited is a highly organized and skilled professional responsible for overseeing project execution, coordinating team efforts, and ensuring timely delivery of high-quality results."
               />
             </MKBox>
           </Grid>
@@ -78,9 +78,9 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3}
-                name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="George Kiirithio"
+                position={{ color: "info", label: "Software Developer" }}
+                description="A Software Developer at CBIGDL Limited is a highly skilled professional responsible for designing and implementing cutting-edge software solutions, leveraging their expertise in programming languages and frameworks to drive innovation and deliver high-quality products to clients."
               />
             </MKBox>
           </Grid>
@@ -88,9 +88,9 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team4}
-                name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="Elvis Ndegwa"
+                position={{ color: "info", label: "Software Developer" }}
+                description="A Software Developer at CBIGDL Limited is a skilled professional who combines creativity and technical expertise to design and develop innovative software solutions that drive business growth. "
               />
             </MKBox>
           </Grid>

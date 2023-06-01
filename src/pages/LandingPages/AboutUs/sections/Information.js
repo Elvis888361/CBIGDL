@@ -35,8 +35,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Implementation"
+                    description="Gain from the IDEAL software implementation methodology—refined for over 30 years."
                   />
                 </MKBox>
               </Grid>
@@ -44,8 +44,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Consulting"
+                    description="We’re here to help with the right type of expertise and the flexibility to use only the amount of project support time you need."
                   />
                 </MKBox>
               </Grid>
@@ -53,8 +53,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Managed Services"
+                    description="Need top-notch systems that are always at the forefront of technology? CBIGDL has the right team ready to jump into action."
                   />
                 </MKBox>
               </Grid>
@@ -62,8 +62,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Education & Training"
+                    description="Take advantage of a robust combination of product curriculum, onsite training, and custom designed learning to fit every role."
                   />
                 </MKBox>
               </Grid>
